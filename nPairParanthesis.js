@@ -32,4 +32,7 @@ function nPair(n) {
             for (var r = 0; r < rights.length; ++r)
                 result.push("(" + lefts[l] + ")" + rights[r]);
     }
+    return result;
+}
 
+console.log(nPair(2, 5))
