@@ -17,3 +17,9 @@ function b(num) {
     return 1;
 }
 console.log(b("(()"));
+
+function nPair(n) {
+    if (n == 0)
+        return [""];
+
+
