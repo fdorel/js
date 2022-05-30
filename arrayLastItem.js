@@ -10,4 +10,4 @@ console.log(t1)
 
 total.push('elem4')
 const t2 = lastItem (total)
-console.log(t2)
+console.log(t3)
