@@ -1,0 +1,10 @@
+// Javascript Function to clone an array
+
+function arrClone (arr) {
+	return arr.slice(0)
+}
+console.log(arrClone([11,23,73,54]))
+
+let arrOrigin= [55,31,7,15,45,101]
+let arrCl = [...arrOrigin]
+console.log(arrCl)
