@@ -9,4 +9,4 @@ function first_factorial(num) {
   
     return num   
   }
-first_factorial(7)  
+first_factorial(5)  
