@@ -5,7 +5,7 @@ const total = ['elem1', 'elem2', 'elem3']
 function lastItem (arr) {
   return arr.at(-1)
 }
-const t1 = lastItem (total)
+const t1 = firstItem (total)
 console.log(t1)
 
 total.push('elem4')
